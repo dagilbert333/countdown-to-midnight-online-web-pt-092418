@@ -10,6 +10,5 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  runtime = Benchmark.measure 
-      runtime.real.to_i >= number
+  sleep(1)
 end
